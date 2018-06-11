@@ -5,6 +5,13 @@
 identityserver4_log.txt
 tempkey.rsa
 
+# Build artifacts
+.artifacts
+
+# Code coverage
+.coverage
+coverage.xml
+
 # User-specific files
 *.suo
 *.user
