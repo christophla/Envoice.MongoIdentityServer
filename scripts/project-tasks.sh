@@ -319,7 +319,6 @@ else
             buildProject
             ;;
         "build-ci")
-            compose
             unitTests
             integrationTests
             nugetPublish
