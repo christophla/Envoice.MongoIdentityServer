@@ -1,18 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-      <TargetFramework>netcoreapp2.0</TargetFramework>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Authors>Christopher Town</Authors>
+        <Company>Envoice</Company>
+        <Copyright>MIT</Copyright>
+        <Description>Mongo backing store for Identity Server 4</Description>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <IncludeSource>true</IncludeSource>
+        <IncludeSymbols>true</IncludeSymbols>
+        <PackageId>Envoice.MongoIdentityServer</PackageId>
+        <PackageTags>dotnetcore, mongodb, identity, idsrv4</PackageTags>
+        <ProjectUrl>https://github.com/christophla/Envoice.MongoIdentityServer</ProjectUrl>
+        <RepositoryUrl>https://github.com/christophla/Envoice.MongoIdentityServer</RepositoryUrl>
+        <VersionPrefix>1.0.0</VersionPrefix>
+        <VersionSuffix>$(VersionSuffix)</VersionSuffix>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="AutoMapper" Version="6.2.2" />
-        <PackageReference Include="Envoice.Conditions" Version="1.0.0" />
-        <PackageReference Include="Envoice.MongoRepository" Version="1.0.0-rc3" />
-        <PackageReference Include="IdentityServer4" Version="2.1.1" />
-        <PackageReference Include="MongoDB.Driver" Version="2.5.0" />
+        <PackageReference Include="AutoMapper" Version="7.0.0" />
+        <PackageReference Include="Envoice.Conditions" Version="1.0.2" />
+        <PackageReference Include="Envoice.MongoRepository" Version="1.0.0" />
+        <PackageReference Include="IdentityServer4" Version="2.2.0" />
+        <PackageReference Include="MongoDB.Driver" Version="2.6.1" />
     </ItemGroup>
 
-    <ItemGroup>
-        <!-- <ProjectReference Include="..\..\..\mongo.repository\src\Envoice.MongoRepository\Envoice.MongoRepository.csproj"/> -->
-    </ItemGroup>
 </Project>
